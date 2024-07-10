@@ -1,0 +1,82 @@
+.container {
+    display: grid;
+    grid-template-rows: 100px minmax(100px, 40vh) 10vh;
+    /* grid-template-columns: 100px minmax(100px, 3fr) 1fr; */
+    /* grid-template-rows: repeat(3, 100px); */
+    /* grid-gap: 1em 3em; */
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 100px auto;   
+}
+
+.header_icon {
+    width: 100px;
+    place-items: center;
+    margin: auto;
+}
+
+.header_logo,
+.button_box {
+    max-height: 100px;
+    object-fit: contain;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.button_box {
+    display: grid;
+    height:70px;
+    grid-template-columns: repeat(4, auto);
+    justify-self: end;
+}
+
+/* DESKTOP */
+@media (min-width: 1025px) {
+    .button_box,
+    .header_logo {
+        width: 300px;
+    }
+    
+    .button {
+        display: grid;
+        height: 25px;
+        width: 70px;
+        margin: auto;
+        padding: 0px 4px;
+        border-radius: 7px;
+        justify-content: center;
+        background-color: #131313;
+    }
+    
+    .button_text {
+        margin: 0px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 1025px) {
+    .button_box,
+    .header_logo {
+        width: 250px;
+    }
+
+    .button_box {
+        justify-content: end;
+    }
+    
+    .header_icon {
+        width: 70px;
+    }
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}

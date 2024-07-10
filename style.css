@@ -27,9 +27,9 @@
   }
   
   .item {
-    padding: 0.5em;
-    background-color: #fb7185;
+    /* padding: 0.5em; */
+    background-color: #484950;
     font-weight: 700;
     color: var(--clr-light);
-    border: 10px solid var(--clr-accent);
+    border: 1px solid var(--clr-accent);
   }

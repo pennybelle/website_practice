@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-rows: 100px minmax(100px, 40vh) 10vh;
+    grid-template-columns: 100px minmax(100px, 3fr) 1fr;
+    /* grid-template-rows: repeat(3, 100px); */
+    /* grid-gap: 1em 3em; */
+}
+
+.item {
+    margin-top: calc(1vw + 1vh);
+    margin-left: calc(1vw + 1vh);
+    margin-right: calc(1vw + 1vh);
+}
