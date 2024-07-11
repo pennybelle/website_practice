@@ -72,19 +72,9 @@
     .header {
         grid-template-columns: auto auto;  
     }
-
-    .button_box,
+    
     .header_logo {
-        width: 30vw;
-    }
-
-    .button_box {
-        height: 7vw;
-        justify-content: end;
-    }
-
-    .button {
-        display: none;
+        width: 50%;
     }
     
     .header_icon {
@@ -93,7 +83,23 @@
     }
 
     .header_dropdown {
+        display: block;
         width: 7vw;
+        height: 7vw;   
+    }
+
+    .header_dropdown_icon {
+        width: 100%;
+    }
+    
+    .button_box {
+        width: 7vw;
+        height: 7vw;
+        justify-content: end;
+    }
+
+    .button {
+        display: none;
     }
 }
 
