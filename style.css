@@ -24,12 +24,12 @@
     width: 80%;
     margin: 0 auto;
     border: 10px solid var(--clr-dark);
+    color: var(--clr-light);
   }
   
   .item {
     /* padding: 0.5em; */
     background-color: #484950;
     font-weight: 700;
-    color: var(--clr-light);
     border: 1px solid var(--clr-accent);
   }
