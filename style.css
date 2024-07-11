@@ -1,6 +1,6 @@
 :root {
     --clr-dark: #0f172a;
-    --clr-light: #f1f5f9;
+    --clr-light: #e2e7ec;
     --clr-accent: #e11d48;
   }
   
@@ -16,16 +16,11 @@
     line-height: 1.6;
     word-spacing: 1.4px;
     color: var(--clr-dark);
-    /* background-color: var(--clr-light); */
+    background-color: var(--clr-light);
   }
   
   .body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-  }
-
-  .button {
-    font-size: 15px;
     font-weight: 700;
   }
   
