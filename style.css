@@ -18,6 +18,12 @@
     color: var(--clr-dark);
     background-color: var(--clr-light);
   }
+
+  p,
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
   
   .body {
     font-family: 'Roboto', sans-serif;
@@ -27,5 +33,5 @@
   .item {
     /* padding: 0.5em; */
     color: var(--clr-light);
-    border: 1px solid var(--clr-accent);
+    border: 1px solid var(--clr-accent) ;
   }
