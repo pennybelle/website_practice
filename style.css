@@ -1,6 +1,6 @@
 :root {
     --clr-dark: #0f172a;
-    --clr-light: #77777c;
+    --clr-background: #18181b;
     --clr-accent: #e11d48;
   }
   
@@ -16,7 +16,7 @@
     line-height: 1.6;
     word-spacing: 1.4px;
     /* color: var(--clr-dark); */
-    background-color: var(--clr-light);
+    background-color: var(--clr-background);
   }
 
   p,
@@ -24,6 +24,7 @@
   h2 {
     margin: 0;
     padding: 0;
+    /* text-shadow: 0 0 10px #0f172a; */
   }
   
   h1,
@@ -38,5 +39,6 @@
   .item {
     /* padding: 0.5em; */
     /* color: var(--clr-light); */
-    border: 1px solid var(--clr-accent) ;
+    /* box-shadow: 0 0 10px #0f172a; */
+    /* border: 1px solid var(--clr-accent); */
   }
